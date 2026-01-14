@@ -54,6 +54,29 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "com.easytoolkit.core": {
+      "version": "file:com.easytoolkit.core",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.easytoolkit.odinserializer": "1.0.0"
+      }
+    },
+    "com.easytoolkit.inspector": {
+      "version": "file:com.easytoolkit.inspector",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.easytoolkit.odinserializer": "1.0.0",
+        "com.easytoolkit.core": "1.0.0"
+      }
+    },
+    "com.easytoolkit.odinserializer": {
+      "version": "file:com.easytoolkit.odinserializer",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.collab-proxy": {
       "version": "2.11.2",
       "depth": 0,
