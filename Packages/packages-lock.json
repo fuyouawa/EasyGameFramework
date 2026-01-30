@@ -19,7 +19,10 @@
       "version": "file:com.easygameframework.essentials",
       "depth": 0,
       "source": "embedded",
-      "dependencies": {}
+      "dependencies": {
+        "com.easytoolkit.core": "1.0.0",
+        "com.easytoolkit.fluxion": "1.0.0"
+      }
     },
     "com.easygameframework.hybridclr": {
       "version": "file:com.easygameframework.hybridclr",
@@ -58,8 +61,14 @@
       "version": "file:com.easytoolkit.core",
       "depth": 0,
       "source": "embedded",
+      "dependencies": {}
+    },
+    "com.easytoolkit.fluxion": {
+      "version": "file:com.easytoolkit.fluxion",
+      "depth": 0,
+      "source": "embedded",
       "dependencies": {
-        "com.easytoolkit.odinserializer": "1.0.0"
+        "com.easytoolkit.core": "1.0.0"
       }
     },
     "com.easytoolkit.inspector": {
@@ -67,15 +76,26 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "com.easytoolkit.odinserializer": "1.0.0",
         "com.easytoolkit.core": "1.0.0"
       }
     },
-    "com.easytoolkit.odinserializer": {
-      "version": "file:com.easytoolkit.odinserializer",
+    "com.easytoolkit.serialization": {
+      "version": "file:com.easytoolkit.serialization",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
+    },
+    "com.tuyoogame.yooasset": {
+      "version": "2.3.18",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.scriptablebuildpipeline": "1.21.25",
+        "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
+      },
+      "url": "https://package.openupm.com"
     },
     "com.unity.collab-proxy": {
       "version": "2.11.2",
@@ -139,6 +159,13 @@
     },
     "com.unity.performance.profile-analyzer": {
       "version": "1.2.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.scriptablebuildpipeline": {
+      "version": "1.21.25",
       "depth": 1,
       "source": "registry",
       "dependencies": {},

@@ -22,9 +22,12 @@
 [submodule "Packages/com.easytoolkit.core"]
 	path = Packages/com.easytoolkit.core
 	url = git@github.com:easytoolkit-dev/com.easytoolkit.core.git
-[submodule "Packages/com.easytoolkit.odinserializer"]
-	path = Packages/com.easytoolkit.odinserializer
-	url = git@github.com:easytoolkit-dev/com.easytoolkit.odinserializer.git
 [submodule "Packages/com.easytoolkit.inspector"]
 	path = Packages/com.easytoolkit.inspector
 	url = git@github.com:easytoolkit-dev/com.easytoolkit.inspector.git
+[submodule "Packages/com.easytoolkit.serialization"]
+	path = Packages/com.easytoolkit.serialization
+	url = git@github.com:easytoolkit-dev/com.easytoolkit.serialization.git
+[submodule "Packages/com.easytoolkit.fluxion"]
+	path = Packages/com.easytoolkit.fluxion
+	url = git@github.com:easytoolkit-dev/com.easytoolkit.fluxion.git
