@@ -74,3 +74,6 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets
 /[Aa]ssets/[Ss]treamingAssets.meta
 nul
+
+/[Aa]ssets/TextMesh Pro
+/Bundles

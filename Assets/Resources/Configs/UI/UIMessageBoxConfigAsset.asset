@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cba385e6835a40adaff803e359101a04, type: 3}
+  m_Name: UIMessageBoxConfigAsset
+  m_EditorClassIdentifier: 
+  _assetReference:
+    _packageName: EasyGameFramework
+    _assetName: UI_MessageBox
+  _tipTitle: "\u63D0\u793A"
+  _warnTitle: "\u8B66\u544A"
+  _errorTitle: "\u9519\u8BEF"
+  _fatalTitle: "\u4E25\u91CD\u9519\u8BEF"
+  _okTexts:
+  - "\u786E\u8BA4"
+  _okCancelTexts:
+  - "\u786E\u8BA4"
+  - "\u53D6\u6D88"
+  _yesTexts:
+  - "\u662F"
+  _yesNoTexts:
+  - "\u662F"
+  - "\u5426"
+  _yesNoCancelTexts:
+  - "\u662F"
+  - "\u5426"
+  - "\u53D6\u6D88"

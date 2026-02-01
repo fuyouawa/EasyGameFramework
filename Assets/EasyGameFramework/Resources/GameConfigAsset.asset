@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32b99416c8674f65beb2da579707937c, type: 3}
+  m_Name: GameConfigAsset
+  m_EditorClassIdentifier: 
+  _preloadAssetTags: []
+  _startSceneAssetReference:
+    _packageName: Main
+    _assetName: Scene_User
+  _configDataType: 0
+  _configPackageName: Main
+  _configAssetName: Config_{0}
+  _assemblyPackageName: Main
+  _assemblyAssetName: DLL_{0}
+  _hotUpdateAssemblyNames: []
+  _aotMetaAssemblyNames: []

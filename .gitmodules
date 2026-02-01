@@ -31,3 +31,6 @@
 [submodule "Packages/com.easytoolkit.fluxion"]
 	path = Packages/com.easytoolkit.fluxion
 	url = git@github.com:easytoolkit-dev/com.easytoolkit.fluxion.git
+[submodule "Packages/com.easygameframework.bootstrap"]
+	path = Packages/com.easygameframework.bootstrap
+	url = git@github.com:easygameframework-dev/com.easygameframework.bootstrap.git
